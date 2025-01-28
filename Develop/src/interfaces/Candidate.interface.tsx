@@ -6,6 +6,7 @@ interface Candidate {
     avatar_url: string;
     email?: string;
     html_url: string;
+    company?: string;
 }
 
 export default Candidate;

@@ -32,6 +32,14 @@ const CandidateSearch = () => {
     getCandidates();
   }, []);
 
+  const addCandidate = async() => {
+    if (currentCandidate) {
+      candidates.push(currentCandidate);
+      getCandidates();
+      console.log('CANDIDATES ARRAY:', candidates);
+    }
+  }
+
   return (
     <section className = 'candidateCard'>
       {currentCandidate ? (
@@ -41,8 +49,10 @@ const CandidateSearch = () => {
           <p>{currentCandidate.login}</p>
           <p>{currentCandidate?.location}</p>
           <p>{currentCandidate?.email}</p>
+          <p>{currentCandidate?.company}</p>
           <a href={currentCandidate.html_url}>{currentCandidate.html_url}</a>
           <button onClick={getCandidates}>❌</button>
+          <button onClick={addCandidate}>✅</button>
         </>
       ) : (
         <p>Loading Candidate...</p>

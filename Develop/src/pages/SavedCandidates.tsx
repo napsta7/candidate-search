@@ -1,8 +1,16 @@
+import candidates from './CandidateSearch';
+
 const SavedCandidates = () => {
   return (
-    <>
-      <h1>Potential Candidates</h1>
-    </>
+    <table>
+      <tr>Name</tr>
+      <tr>Username</tr>
+      <tr>Location</tr>
+      <tr>Avatar</tr>
+      <tr>Email</tr>
+      <tr>GitHub</tr>
+      <tr>Company</tr>
+    </table>
   );
 };
 
