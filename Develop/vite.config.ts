@@ -6,10 +6,10 @@ export default defineConfig({
   envDir: './environment',
   plugins: [react()],
   server: {
-    port: process.env.PORT ? Number(process.env.PORT) : 3000,
-    host: true,
+    port: 10000,
+    host: '0.0.0.0',
   },
   preview: {
-    allowedHosts: ['candidate-search-qtz0.onrender.com'], // Add this line
+    allowedHosts: ['candidate-search-qtz0.onrender.com'],
   },
 });
