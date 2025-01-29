@@ -10,5 +10,5 @@ https://candidate-search-qtz0.onrender.com/SavedCandidates
 I used code that was supplied/corrected by the edX Xpert Learning Assistant for this assignment.
 
 ## Screenshots of Application:
-![Alt text](Develop\public\candidate1.png)
-![Alt text](Develop\public\candidate2.png)
+![Alt text](Develop/public/candidate1.png)
+![Alt text](Develop/public/candidate2.png)
