@@ -9,4 +9,7 @@ export default defineConfig({
     port: process.env.PORT ? Number(process.env.PORT) : 3000,
     host: true,
   },
+  preview: {
+    allowedHosts: ['candidate-search-qtz0.onrender.com'], // Add this line
+  },
 });
