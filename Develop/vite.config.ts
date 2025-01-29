@@ -8,8 +8,6 @@ export default defineConfig({
   server: {
     port: 10000,
     host: '0.0.0.0',
-  },
-  preview: {
-    allowedHosts: ['candidate-search-qtz0.onrender.com'],
+    allowedHosts: ['candidate-search-qtz0.onrender.com']
   },
 });
